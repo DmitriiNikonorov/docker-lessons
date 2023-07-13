@@ -87,3 +87,11 @@ docker rm -vf $(docker ps -a -q)
 ```
 docker rmi -f $(docker images -a -q) 
 ```
+docker run -p 8081:8000 -d nikonoroff/kuber:latest
+```
+docker run -p 8080:8000 -d nikonoroff/kuber:0.1
+```
+docker ps -a 
+```
+docker images -a
+```
